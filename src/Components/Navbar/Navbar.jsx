@@ -9,7 +9,7 @@ const Navbar =() =>{
         <div className="container d-flex">
             <div className='logo d-flex justify-content-start'>
                 <img className='' src={logo}/>
-                <p className=' fs-2'>SHOPPER</p>
+                <p className=' fs-2'>BOICHARIK</p>
             </div>
           <div className='navMenu d-flex justify-content-center'>
             <ul className="navbar-nav d-flex justify-content-between me-auto mb-2 mb-lg-0">
