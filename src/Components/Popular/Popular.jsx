@@ -5,7 +5,7 @@ import Item from '../Item/Item'
 const Popular = (props) =>{
     return(
         <div className='container py-5'>
-            <h1>Popular In Women</h1>
+            <h1>Popular In Men</h1>
             <hr/>
             
             <div className="container text-center">

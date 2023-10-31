@@ -17,9 +17,9 @@ const Navbar =() =>{
           <div className='navMenu d-flex justify-content-center'>
             <ul className="navbar-nav d-flex justify-content-between me-auto mb-2 mb-lg-0">
             <li onCLick={()=>{setMenu("shop")}} className="nav-item px-5"> <Link class="text-decoration-none text-secondary-emphasis" to='/'>Shop </Link>{menu==="shop"?<hr/>:<></>}</li>
-            <li onCLick={()=>{setMenu("mens")}} className="nav-item px-5"><Link class="text-decoration-none text-secondary-emphasis" to='/mens'>Men  </Link>{menu==="mens"?<hr/>:<></>}</li>
-            <li onCLick={()=>{setMenu("womens")}} className="nav-item px-5">  <Link class="text-decoration-none text-secondary-emphasis" to='/womens'>Women </Link>{menu==="womens"?<hr/>:<></>}</li>
-            <li onCLick={()=>{setMenu("kids")}} className="nav-item px-5"><Link class="text-decoration-none text-secondary-emphasis" to='/kids'>Kids</Link> {menu==="kids"?<hr/>:<></>}</li>
+            <li onCLick={()=>{setMenu("gifts")}} className="nav-item px-5"><Link class="text-decoration-none text-secondary-emphasis" to='/gifts'>Gifts</Link>{menu==="gifts"?<hr/>:<></>}</li>
+            <li onCLick={()=>{setMenu("accessories")}} className="nav-item px-5">  <Link class="text-decoration-none text-secondary-emphasis" to='/accessories'>Accessories </Link>{menu==="accessories"?<hr/>:<></>}</li>
+            <li onCLick={()=>{setMenu("electronics")}} className="nav-item px-5"><Link class="text-decoration-none text-secondary-emphasis" to='/electronics'>Electronics</Link> {menu==="electronics"?<hr/>:<></>}</li>
             </ul>
           </div>
           <div className='loginAndCart d-flex justify-content-end'>
